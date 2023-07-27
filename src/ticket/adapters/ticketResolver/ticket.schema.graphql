@@ -1,0 +1,10 @@
+type Ticket {
+  Section: String
+  Row: String
+  SeatNumber: Int
+  Price: Float
+}
+
+type Query {
+  tickets(eventId: Int!): [Ticket]
+}
