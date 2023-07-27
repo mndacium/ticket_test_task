@@ -9,10 +9,9 @@ $ npm install
 
 ```bash
 $ npm run start
-
+```
 ## Test
 
 ```bash
-# all tests
 $ npm run test
 ```
